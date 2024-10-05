@@ -12,6 +12,7 @@ Wallbash templates for terminal emulators that works on HyDE.
   
 ## Contributions
 
+- Create a directory for a terminal emulator, inside that folder will be the dcol file and a README on how to use it. If external script is needed include it and be sure to explain how it works and how to use it.
 - Enhance the template by adding more contrast to some elements.
 - Avoid making breaking changes.
 - Make readme comprehensive
