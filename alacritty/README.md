@@ -17,7 +17,7 @@ The destination directory for the template will be `~/.config/alacritty/theme.to
 
 ## Applying the Theme
 
-To apply the theme, include the `theme.conf` file in your `alacritty.toml` configuration file.
+To apply the theme, include the `theme.toml` file in your `alacritty.toml` configuration file.
 
 1. Open your `alacritty.toml` file, usually located at `~/.config/alacritty/alacritty.toml`.
 2. Add the following line to include the theme configuration:
