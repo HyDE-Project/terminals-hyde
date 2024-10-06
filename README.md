@@ -1,6 +1,8 @@
 # terminals-hyde
 Wallbash templates for terminal emulators that works on HyDE.
 
+## Usage
+Check each directory for instructions.  
 
 ### Difference Between Wall-Ways and Wall-Dcol
 
