@@ -1,0 +1,25 @@
+${HOME}/.local/share/warp-terminal/themes/hyde/hyde.yaml
+accent: "#<wallbash_pry1>"
+background: "#<wallbash_pry2>"
+details: darker
+foreground: "#<wallbash_txt1>"
+terminal_colors:
+  bright:
+    black: "#<wallbash_1xa4>"
+    blue: "#<wallbash_1xa7>"
+    cyan: "#<wallbash_3xa7>"
+    green: "#<wallbash_2xa8>"
+    magenta: "#<wallbash_2xa7>"
+    red: "#<wallbash_4xa8>"
+    white: "#<wallbash_4xa8>"
+    yellow: "#<wallbash_3xa8>"
+  normal:
+    black: "#<wallbash_1xa1>"
+    blue: "#<wallbash_1xa7>"
+    cyan: "#<wallbash_3xa7>"
+    green: "#<wallbash_2xa9>"
+    magenta: "#<wallbash_2xa7>"
+    red: "#<wallbash_4xa9>"
+    white: "#<wallbash_4xa9>"
+    yellow: "#<wallbash_3xa9>"
+
