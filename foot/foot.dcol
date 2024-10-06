@@ -1,0 +1,51 @@
+$HOME/.config/foot/theme.ini|killall -SIGUSR1 foot
+#foot terminal wallbash dcol template
+#https://github.com/rishav12s
+
+[colors]
+alpha=0.7 #transparency
+foreground=<wallbash_txt1>
+background=<wallbash_pry1>
+selection-foreground=<wallbash_pry1>
+selection-background=<wallbash_txt1>
+
+# black
+regular0=<wallbash_1xa1>
+bright0=<wallbash_1xa4>
+
+# red
+regular1=<wallbash_4xa9>
+bright1=<wallbash_4xa8>
+
+# green
+regular2=<wallbash_2xa9>
+bright2=<wallbash_2xa8>
+
+# yellow
+regular3=<wallbash_3xa9>
+bright3=<wallbash_3xa8>
+
+# blue
+regular4=<wallbash_1xa7>
+bright4=<wallbash_1xa7>
+
+# magenta
+regular5=<wallbash_2xa7>
+bright5=<wallbash_2xa7>
+
+# cyan
+regular6=<wallbash_3xa7>
+bright6=<wallbash_3xa7>
+
+# white
+regular7=<wallbash_4xa9>
+bright7=<wallbash_4xa8>
+
+
+
+
+
+
+
+
+
