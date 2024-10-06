@@ -29,6 +29,6 @@ include=~/.config/foot/theme.ini
 
 ## Read More About Alacritty
 
-- [Foot Theme GitHub Repository](https://codeberg.org/dnkl/foot/src/branch/master/themes)
+- [Foot Theme Repository](https://codeberg.org/dnkl/foot/src/branch/master/themes)
 - [Foot Configuration Documentation](https://man.archlinux.org/man/foot.ini.5)
 - [Foot on ArchWiki](https://wiki.archlinux.org/title/Foot)
