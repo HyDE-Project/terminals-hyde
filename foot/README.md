@@ -23,12 +23,11 @@ To apply the theme, include the `theme.ini` file in your `foot.ini` configuratio
 2. Add the following line to include the theme configuration:
 
 ```ini
+[main]
 include=~/.config/foot/theme.ini
 ```
-
 ## Read More About Foot
 
 - [Foot Terminal GitHub Repository](https://codeberg.org/dnkl/foot)
-- [Foot Configuration Documentation](https://codeberg.org/dnkl/foot/src/branch/master/man/foot.ini.5.scd)
+- [Foot Configuration Documentation](https://man.archlinux.org/man/foot.ini.5)
 - [Foot on ArchWiki](https://wiki.archlinux.org/title/Foot)
-
