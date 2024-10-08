@@ -1,6 +1,7 @@
-$HOME/.config/foot/theme.ini|killall -SIGUSR1 foot
-#foot terminal wallbash dcol template
-#https://github.com/rishav12s
+$HOME/.config/foot/theme.ini|echo "[wallbash] Restart foot session to refresh colors"
+# Visit https://github.com/HyDE-Project/terminals-hyde for more info
+# foot terminal wallbash dcol template
+# Template by: https://github.com/rishav12s
 
 [colors]
 alpha=0.7 #transparency

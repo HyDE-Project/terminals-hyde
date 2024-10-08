@@ -26,6 +26,10 @@ To apply the theme, include the `theme.ini` file in your `foot.ini` configuratio
 [main]
 include=~/.config/foot/theme.ini
 ```
+
+**NOTE** [Foot as emulator do not support reloading the colors. ](https://codeberg.org/dnkl/foot/issues/708) So restarting the whole foot session is needed.
+
+
 ## Read More About Foot
 
 - [Foot Terminal GitHub Repository](https://codeberg.org/dnkl/foot)

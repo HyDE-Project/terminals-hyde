@@ -11,6 +11,7 @@ Check each directory for instructions.
 
 ## TODO
 - Dedicated installation
+- Dynamically change terminal colors through escape sequence.
   
 ## Contributions
 

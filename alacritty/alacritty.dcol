@@ -1,4 +1,6 @@
-~/.config/alacritty/theme.toml
+${HOME}/.config/alacritty/theme.toml
+# Visit https://github.com/HyDE-Project/terminals-hyde for more info
+# Template by: HyDE Project
 
 [colors.primary]
 background = '#<wallbash_pry1>'

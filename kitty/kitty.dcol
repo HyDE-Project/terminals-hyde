@@ -2,6 +2,8 @@ $HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
 
 # Template from https://github.com/prasanthrangan/hyprdots
 # All thanks to the GOAT https://github.com/prasanthrangan 
+# Visit https://github.com/HyDE-Project/terminals-hyde for more info
+
 
 foreground              #<wallbash_txt1>
 background              #<wallbash_pry1>
