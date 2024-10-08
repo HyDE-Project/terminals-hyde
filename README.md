@@ -19,6 +19,7 @@ Check each directory for instructions.
 - Enhance the template by adding more contrast to some elements.
 - Avoid making breaking changes.
 - Make readme comprehensive
+- Put better screenshots for the READEME
 - Feel free to open a PR for color corrections!
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A)
