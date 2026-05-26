@@ -3,7 +3,7 @@ $HOME/.config/foot/theme.ini|echo "[wallbash] Restart foot session to refresh co
 # foot terminal wallbash dcol template
 # Template by: https://github.com/rishav12s
 
-[colors]
+[colors-dark]
 alpha=0.7 #transparency
 foreground=<wallbash_txt1>
 background=<wallbash_pry1>
@@ -41,3 +41,4 @@ bright6=<wallbash_3xa7>
 # white
 regular7=<wallbash_4xa9>
 bright7=<wallbash_4xa8>
+
