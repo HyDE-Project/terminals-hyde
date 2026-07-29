@@ -1,0 +1,39 @@
+# Deployment metadata for HyDE.
+#
+# HyDE consumes this over the branch archive, so it needs no second git remote:
+#
+#     [[wezterm.files]]
+#     source = "https://github.com/HyDE-Project/terminal-emulators/archive/refs/heads/main.zip"
+#
+# The archive contains a single top-level directory, which the installer strips,
+# so every path below is written as if this file sat at the root.
+
+[wezterm]
+    description = "A GPU-accelerated cross-platform terminal emulator and multiplexer"
+    owner       = "The HyDE Project"
+
+[[wezterm.dependency]]
+    dnf    = [ "wezterm" ]
+    pacman = [ "wezterm" ]
+
+# HyDE's defaults. Replaced on update.
+[[wezterm.files]]
+    action      = "sync"
+    paths       = "hyde.lua"
+    source_root = "wezterm"
+    target_root = "${XDG_CONFIG_HOME}/wezterm"
+
+# The user's entry point. Never overwritten once it exists.
+[[wezterm.files]]
+    action      = "preserve"
+    paths       = "wezterm.lua"
+    source_root = "wezterm"
+    target_root = "${XDG_CONFIG_HOME}/wezterm"
+
+# The wallbash template. Rendered to ${XDG_CONFIG_HOME}/wezterm/hyde.toml on a
+# theme change, which WezTerm picks up through the watch list in hyde.lua.
+[[wezterm.files]]
+    action      = "sync"
+    paths       = "wezterm.dcol"
+    source_root = "wezterm"
+    target_root = "${XDG_DATA_HOME}/wallbash/theme"
