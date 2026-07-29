@@ -1,12 +1,14 @@
-local wezterm = require 'wezterm'
-local home = os.getenv("HOME")
-local config_home = os.getenv("XDG_CONFIG_HOME") or (home .. "/.config")
-local wezterm_config_dir = config_home .. "/wezterm"
+-- Your WezTerm configuration.
+--
+-- HyDE does not manage this file, so anything you put here survives an
+-- update. HyDE's defaults and the wallbash colours live in hyde.lua, which is
+-- replaced on every update.
 
-wezterm.add_to_config_reload_watch_list(wezterm_config_dir .. "/hyde.toml")
+local config = require("hyde").config()
 
-return {
-    color_scheme_dirs = {wezterm_config_dir},
-    color_scheme = "wallbash",
-    font = wezterm.font("CaskaydiaCove Nerd Font Mono"),
-}
+-- Your settings go below. They override the defaults, for example:
+--
+--     config.font_size = 12
+--     config.window_background_opacity = 1.0
+
+return config

@@ -1,5 +1,5 @@
-${HOME}/.config/wezterm/hyde.toml
-# Visit https://github.com/HyDE-Project/terminals-hyde for more info
+${confDir}/wezterm/hyde.toml
+# Renders a native WezTerm colour scheme named wallbash.
 # Template by: The HyDE Project
 
 [metadata]
