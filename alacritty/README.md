@@ -23,7 +23,7 @@ To apply the theme, include the `theme.toml` file in your `alacritty.toml` confi
 2. Add the following line to include the theme configuration:
 
 ```toml
-import = [
+general.import = [
     "~/.config/alacritty/theme.toml"
 ]
 ```
